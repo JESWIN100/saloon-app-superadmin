@@ -40,6 +40,4 @@ coverage/
 *.tmp
 *.temp
 
-# Upload or storage folders (if any)
-uploads/
-public/uploads/
+
