@@ -15,10 +15,10 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 
-connection.connect((err) => {
-  if (err) throw err;
-  console.log('Database connected!');
-});
+// connection.connect((err) => {
+//   if (err) throw err;
+//   console.log('Database connected!');
+// });
 
 
 app.use('/',require("./routes/index"))
